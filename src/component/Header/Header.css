@@ -1,0 +1,13 @@
+.nav-link a {
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: large;
+    font-weight: 700;
+    color: orangered;
+}
+
+.Logo {
+    font-size: xx-large;
+    font-weight: 700;
+    color: orangered;
+}
