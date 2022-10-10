@@ -10,11 +10,11 @@ const Header = () => {
         <div>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand className='Logo' href="#home">React-Bootstrap</Navbar.Brand>
+                    <Navbar.Brand className='Logo' href="#home">Quiz-Extra</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto nav-link">
-                            <NavLink to={'home'}>Home</NavLink>
+                            <NavLink to={'home'} className={({ isActive }) => isActive ? 'active' : undefined}>Home</NavLink>
                             <NavLink to={'statics'}>statics</NavLink>
                             <NavLink to={'blog'}>Blog</NavLink>
                         </Nav>

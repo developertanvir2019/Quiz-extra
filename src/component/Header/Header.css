@@ -11,3 +11,7 @@
     font-weight: 700;
     color: orangered;
 }
+
+.active {
+    color: blue !important;
+}

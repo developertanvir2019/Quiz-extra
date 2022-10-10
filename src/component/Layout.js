@@ -1,14 +1,18 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
+import React, { createContext } from 'react';
+import { Outlet, useLoaderData } from 'react-router-dom';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
+export const LoadedData = createContext([]);
 
 const Layout = () => {
+    const topics = useLoaderData().data
     return (
         <div>
-            <Header></Header>
-            <Outlet></Outlet>
-            <Footer></Footer>
+            <LoadedData.Provider value={topics}>
+                <Header></Header>
+                <Outlet></Outlet>
+                {/* <Footer></Footer> */}
+            </LoadedData.Provider>
 
         </div>
     );
