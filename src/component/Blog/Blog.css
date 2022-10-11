@@ -1,0 +1,10 @@
+.blog-area {
+    padding: 30px 10px;
+    border: 2px solid lightblue;
+    margin: 20px;
+}
+
+.blog-area h5 {
+    color: green;
+    padding: 10px;
+}

@@ -1,6 +1,6 @@
 .nav-link a {
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 2px 20px;
     font-size: large;
     font-weight: 700;
     color: orangered;
@@ -14,4 +14,10 @@
 
 .active {
     color: blue !important;
+}
+
+.navbarCus {
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }
