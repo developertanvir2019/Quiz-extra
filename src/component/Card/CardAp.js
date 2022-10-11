@@ -2,6 +2,7 @@ import Card from 'react-bootstrap/Card';
 import React from 'react';
 import './Card.css'
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 const CardAp = ({ data }) => {
     const { name, id, logo } = data;
     return (
@@ -10,8 +11,7 @@ const CardAp = ({ data }) => {
                 <Card.Img variant="top" src={logo} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
-
-                    <Button variant="primary">Start Practice </Button>
+                    <Link to={`/${id}`} >   <Button variant="primary">Start Practice </Button></Link>
                 </Card.Body>
             </Card>
         </div>

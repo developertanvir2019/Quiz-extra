@@ -11,7 +11,7 @@ const Layout = () => {
             <LoadedData.Provider value={topics}>
                 <Header></Header>
                 <Outlet></Outlet>
-                {/* <Footer></Footer> */}
+                <Footer></Footer>
             </LoadedData.Provider>
 
         </div>
