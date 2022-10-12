@@ -1,0 +1,16 @@
+.question {
+    border: 2px solid cyan;
+    background-color: rgb(212, 234, 234);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.question p {
+    background-color: chartreuse;
+    padding: 15px 0;
+    margin: 30px 50px;
+}
+
+.question p:hover {
+    background-color: greenyellow;
+}

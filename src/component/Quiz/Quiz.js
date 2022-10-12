@@ -8,7 +8,7 @@ const Quiz = () => {
     return (
         <div>
 
-            <h1>Quiz of {name}</h1>
+            <h1 className='text-danger py-2'>Quiz of {name}</h1>
             {
                 questions.map(question => <QuizCard key={question.id} ques={question}></QuizCard>)
             }
