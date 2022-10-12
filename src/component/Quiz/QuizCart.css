@@ -14,3 +14,9 @@
 .question p:hover {
     background-color: greenyellow;
 }
+
+.sixe {
+    height: 30px;
+    width: 30px;
+    color: orangered;
+}
